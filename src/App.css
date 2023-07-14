@@ -1,0 +1,95 @@
+/* App.css */
+.app-container {
+  position: relative;
+}
+.about-us {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: auto;
+  width: 50%;
+  background-color: black;
+  color: aliceblue;
+  text-align: justify;
+  padding-left: 3%;
+  padding-right: 3%;
+  padding-top: 3%;
+  transform: translateX(100%);
+  transition: transform 0.6s ease-in-out;
+  z-index: 1;
+
+}
+.firstpage h2{
+  font-size: 20px;
+}
+.about-link button{
+  background-color: none;
+  padding-top: 20px;
+}
+
+
+.main_container.background-image.about-open .about-us {
+  transform: translateX(0);
+}
+/
+footer {
+  margin-top: 15%;
+  padding: 20px;
+  margin-left: 58%;
+ 
+}
+.social-icons {
+  display: flex;
+  justify-content: center;
+  padding-top: 20%;
+  padding-left: 30%;
+}
+
+.social-icons a {
+  margin: 0 10px;
+}
+
+.social-icons img {
+  width: 30px;
+  height: 30px;
+}
+.main_container{
+  margin-top: 0;
+  width: 1400px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px;
+  
+}
+
+.logo {
+  height: 50px;
+  width: 100px;
+  margin-left: 25px;
+  margin-top: 20px;
+  /* top: 0;
+  left: 0;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1)); */
+}
+.background-image {
+  background-image: url('./assets/background-image.jpg'); /* Replace with the actual path to your background image */
+   /* background-size: cover; */
+  /* background-position: center; */
+  /* padding: 50px; */
+  /* text-align: center; */
+  /* padding: 200px; */
+  /* margin-top: 0; */
+  height: 700px;
+  color: aliceblue;
+}
+.firstpage{
+    text-align: center;
+    padding-top: 5%;
+}
+
+
